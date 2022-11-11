@@ -102,7 +102,7 @@ function descrement(id) {
 }
 
 function deleteItem() {
-  document.location = 'Controller/Delete.php';
+  document.location = 'Delete.php';
   document.getElementById("myButton").remove('shop-item-button inactive');
   document.getElementById("myButton").classList.add("shop-item-button");
 }
